@@ -96,11 +96,16 @@ You can use a module binding in the file and only specify the function name in t
     const logger = require("logger-one").getInstance().moduleBinding("Application", "app");
     logger.info("Running setup", "setup");
 
+The module binding object will only provide logging methods, so methods such as `setLevel()` will not work.
+
 
 Configuring the logger object
 =============================
 
 If you use the singleton pattern (by calling `getInstance()`), configuration options will apply throughout your project.
+
+These work only on instances obtained with `getInstance()` or with the constructor, they will not work on the
+module bindings.
 
 This is a list of configuration methods.
 

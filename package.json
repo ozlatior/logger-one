@@ -1,0 +1,27 @@
+{
+  "name": "logger-one",
+  "version": "0.0.1",
+  "description": "Logging class with different log levels",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "logging",
+    "logger"
+  ],
+  "dependencies": {
+    "mocha": "*",
+    "util-one": "*"
+  },
+  "author": "Octav Zlatior",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozlatior/logger-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ozlatior/logger-one/issues"
+  },
+  "homepage": "https://github.com/ozlatior/logger-one#readme"
+}
